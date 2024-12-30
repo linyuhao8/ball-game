@@ -1,41 +1,38 @@
-Ball Game
-Description
-This is a simple ball-bouncing game where a ball can collide with a floor to bounce and move. Currently, the functionality includes the following:
+# Ball Bounce Game
 
-The ball can bounce up and down when it collides with the floor.
-The ball can rebound when it hits a strong surface.
-The game is built using TypeScript, and it is still in development.
+This is a simple ball bounce game where a ball bounces off a floor and a platform. The game has basic functionality where the ball can bounce off the platform and floor, with further development planned for more interactive features.
 
-Installation & Setup
-To get started, follow these steps:
+## Features
 
-Clone the repository:
+- The ball can bounce off the platform (floor).
+- The ball also bounces off walls and platforms.
+- Currently, the game is in the early stages, with more features and improvements planned for the future.
 
+## Installation
+
+To get started with the game, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/linyuhao8/ball-game.git
+
+   Open the game in your browser: Navigate to the game folder:
+2. 
 bash
-複製程式碼
-git clone https://github.com/linyuhao8/ball-game.git
-Open the game in a browser:
-
-After cloning the repository, open the following file in your browser:
-
-bash
-複製程式碼
-ball-game/dist/index.html
-Development Mode (Optional):
-
-If you want to run the TypeScript watcher to automatically apply changes to JavaScript, follow these steps:
-
-bash
-複製程式碼
 cd ball-game/ball-game
+
+3.
+use browser open ball-game/dist/index.html
+
+4. In the terminal, run the following command to start the TypeScript watcher:
+bash
 npm run watch
-This will start TypeScript in watch mode. Any changes made to the .ts files will be automatically applied to the JavaScript files.
+This will start a TypeScript watch mode. Any changes made to .ts files will be automatically applied to the JavaScript.
 
-Exit Watch Mode:
+5. Exit the watcher:
 
-To stop the watch mode, simply press Ctrl + C in the terminal.
+To exit the watch mode, simply press Ctrl + C in the terminal.
+Development
+The game is being developed using TypeScript, and the current build uses basic collision detection for ball and platform interaction.
+More features will be added in the future to enhance gameplay and mechanics.
 
-Future Features
-Adding more complex ball mechanics.
-Enhancing the floor's interaction with the ball.
-Improving the UI/UX for a better gameplay experience.
