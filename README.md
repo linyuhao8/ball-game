@@ -25,14 +25,14 @@ cd ball-game/ball-game
 3. **use browser open ball-game/dist/index.html**:
    
 4. **In the terminal, run the following command to start the TypeScript watcher**:
-```bash
+bash
 npm run watch
 
 This will start a TypeScript watch mode. Any changes made to .ts files will be automatically applied to the JavaScript.
 In the terminal, run the following command to start the TypeScript watcher
 
 5. **Exit the watcher**
-
+bash
 To exit the watch mode, simply press Ctrl + C in the terminal.
 Development
 The game is being developed using TypeScript, and the current build uses basic collision detection for ball and platform interaction.
