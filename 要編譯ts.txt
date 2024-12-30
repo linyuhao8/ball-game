@@ -1,0 +1,9 @@
+終端機輸入 npm run build即可編譯
+
+
+"scripts": {
+  "build": "tsc --project tsconfig.json",
+  "watch": "tsc --project tsconfig.json --watch"
+}
+
+npm run watch
